@@ -1,0 +1,54 @@
+{
+    "name": "Sravya Vulisetty",
+    "emailId": "sravyavulisetty269@gmail.com",
+    "contact": "804-221-4606",
+    "role": "Front-end developer",
+    "location":"Charlotte, NC", 
+    "tagline": "Dedicated Front-End Developer skilled at creating smooth user interfaces and dynamic web applications using React",
+    "description":"I am a front-end developer with around 3 years of experience specializing in Web development. Throughout my career, I have utilized my skills to design dynamic user interfaces, develop efficient web applications, and seamlessly integrate front-end systems with backend APIs.",
+    "resume_link": "",
+    "github_link":"https://github.com/sravyavulisetty",
+    "linkedin_link":"https://www.linkedin.com/in/sravya-ramanvitha-vulisetty/",
+    "instagram_link":"https://www.instagram.com/sravyavulisetty/?igsh=Z3F5OXIwY296Y3hi&ut-m_source=qr",
+    "skills":["HTML", "CSS", "SASS", "LESS", "Tailwind CSS", "Bootstrap", "Javascript", "Typescript", "React", "React-redux", "Material UI", "D3 Chart js", "React-tables", "C language", "Data structures", "Git", "Jest","Scrum methodology", "Time management"],
+    "experience":[{
+        "id":"1",
+        "title": "Front-end developer",
+        "company":"Tata Consultancy Services",
+        "location":"Hyderabad",
+        "duration":"Jun 2021 - Jan 2024",
+        "description": "I developed a help-desk application with features like incident creation, real-time monitoring, and service request management. Using React.js and React-Router, I designed user-friendly pages and managed state with React Hooks. I visualized performance metrics with React Charts and optimized the interface with HTML5, CSS3, and Tailwind CSS."
+    },{
+        "id":"2",
+        "title": "Web developer-intern",
+        "company":"GVP college of Engineering",
+        "location":"Visakhapatnam",
+        "duration":"Nov 2020 - Apr 2021",
+        "description":"I created a platform for students to explore, learn, and engage in technical topics and events. The site includes articles, informative posts, quizzes, and event updates to foster a dynamic learning environment. I developed a user-friendly, responsive website and collaborated on its architecture. Key features include an engaging landing page, registration and contact forms with client-side validation, and an interactive quiz feature."
+    }],
+    "projects":[{
+        "id":"1",
+        "title": "Admin Dashboard",
+        "subtitle":"A web-based admin dashboard for managing user data and visualizing key metrics using React and Chart.js.",
+        "githublink":"https://github.com/sravyavulisetty/react-admin-dashboard",
+        "websitelink":"",
+        "imagelink":"project1.png"
+    },
+    {
+        "id":"2",
+        "title": "Movies API",
+        "subtitle":"A React-Redux application that fetches and displays movie data from an external API, with features like search and filters.",
+        "githublink":"https://github.com/sravyavulisetty/react-admin-dashboard",
+        "websitelink":"",
+        "imagelink":"project2.png"
+    },
+    {
+        "id":"3",
+        "title": "Score shuffler",
+        "subtitle":"An application for managing and shuffling scores, providing an intuitive interface for updating and displaying scores dynamically.",
+        "githublink":"https://github.com/sravyavulisetty/react-admin-dashboard",
+        "websitelink":"",
+        "imagelink":"project3.png"
+    }
+]
+}
