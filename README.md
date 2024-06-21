@@ -7,7 +7,7 @@ You can preview the site [here](https://sravyavulisetty.netlify.app/).
 
 ## Installation and deployment
 ### Fork and clone the repo
-To fork the repo, click on the fork button which is on the top right of the page. once forked, open your terminal and do the following commands:
+To fork the repo, click on the fork button which is on the top right of the page. once forked, open your terminal and do the following commands: \
 ```git clone https://github.com/<YOUR GITHUB USERNAME>/my-portfolio.git``` \
 ```cd my-portfolio```
 
