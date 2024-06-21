@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+The page will reload if you make edits.\<img width="1435" alt="Screenshot 2024-06-21 at 2 27 33 PM" src="https://github.com/sravyavulisetty/my-portfolio/assets/117998742/1eb9faed-ece3-45a8-afe3-20821ce0acdc">
 ## Available Scripts
 
 In the project directory, you can run:
@@ -11,7 +11,8 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
+
+
 You will also see any lint errors in the console.
 
 ### `npm test`
