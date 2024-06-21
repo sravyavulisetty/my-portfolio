@@ -5,11 +5,10 @@ You can preview the site [here](https://sravyavulisetty.netlify.app/)
 
 `<img width="1435" alt="Screenshot 2024-06-21 at 2 27 33 PM" src="https://github.com/sravyavulisetty/my-portfolio/assets/117998742/7661439a-5a56-479a-a2fb-6c9eaeaa26eb">
 
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-
+## Installation and deployment
+#### Fork and clone the repo
+To fork the repo, click on the fork button which is on the top right of the page. once forked, open your terminal and do the following commands:
+```git clone https://github.com/sravyavulisetty/my-portfolio```
 
 You will also see any lint errors in the console.
 
