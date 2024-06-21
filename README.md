@@ -29,10 +29,10 @@ or
 Open your [http://localhost:3000/](http://localhost:3000/) to view your portfolio.
 
 ### Section included
-✔️ Home
-✔️ About
-✔️ Experience
-✔️ Projects
+✔️ Home \
+✔️ About \
+✔️ Experience \
+✔️ Projects \
 ✔️ Contact
 
 ### Deployment
