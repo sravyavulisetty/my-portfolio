@@ -5,6 +5,9 @@
 *{
   font-family: 'Poppins', sans-serif;
 }
+html{
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -65,11 +68,11 @@ code {
 button:hover .downarrow-icon{
   transform: translateX(8px);
 }
-.card{
+/* .card{
   position: relative;
   width: 50%;
   height: 18rem;
-}
+} */
 .card::after, .card::before{
   position: absolute;
   content: "";
@@ -104,6 +107,15 @@ button:hover .downarrow-icon{
   transform: scale(1.15);
   box-shadow: 5px 5px 5px #FF9F66;
 }
+@media (max-width: 767px) {
+  .card::before, .card::after {
+    content: none;
+    border: none;
+  }
+}
+
+/* @keyframes */
+
 /* [data-theme='light']{
   --navlinks: "#FF5F00";
 }

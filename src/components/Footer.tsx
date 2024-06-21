@@ -9,7 +9,7 @@ import { MdLocationPin } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className='flex flex-row justify-between items-start z-10 bg-[#FFFAE6] h-auto w-screen p-5 px-44 border-t-2 border-[#FF5F00]'>
+    <div className='flex flex-col gap-5 md:flex-row lg:flex-row lg:justify-between items-start z-10 bg-[#FFFAE6] h-auto w-screen p-5 lg:px-44 border-t-2 border-[#FF5F00]'>
         <div className='flex flex-col gap-3'>
             <h1 className='font-bold text-lg'>{data.name}'s portfolio</h1>
             <p>Thankyou for visiting my personal portfolio website. <br/>Connect with me over socials.</p>
@@ -17,10 +17,10 @@ const Footer = () => {
         <div className='flex flex-col gap-3'>
             <h1 className='font-semibold text-lg'>Quick Links</h1>
             <ul className='flex flex-col gap-1'>
-                <a className='cursor-pointer hover:text-[#FF5F00]' href='home'><li>Home</li></a>
-                <a className='cursor-pointer hover:text-[#FF5F00]' href='aboutme'><li>About</li></a>
-                <a className='cursor-pointer hover:text-[#FF5F00]' href='experience'><li>Experience</li></a>
-                <a className='cursor-pointer hover:text-[#FF5F00]' href='projects'><li>Projects</li></a>
+                <a className='cursor-pointer hover:text-[#FF5F00]' href='#home'><li>Home</li></a>
+                <a className='cursor-pointer hover:text-[#FF5F00]' href='#aboutme'><li>About</li></a>
+                <a className='cursor-pointer hover:text-[#FF5F00]' href='#experience'><li>Experience</li></a>
+                <a className='cursor-pointer hover:text-[#FF5F00]' href='#projects'><li>Projects</li></a>
             </ul>
         </div>
         <div className='flex flex-col gap-3'>

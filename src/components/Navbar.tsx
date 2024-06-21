@@ -7,7 +7,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const {theme, toggleTheme} = useTheme();
   return (
-    <nav className='w-screen bg-[#FFFAE6] flex justify-between items-center pl-40 px-20 fixed z-20 pt-2'>
+    <nav className='w-screen bg-[#FFFAE6] flex justify-between items-center px-10 fixed z-20 pt-2 pb-2 lg:pl-24'>
         <img src={user} className='w-10 h-10 rounded-full logo mt-2' alt='s-logo'/> 
         {/* desktop */}
         <ul className='hidden md:flex gap-6 tracking-wide items-center'>
@@ -43,11 +43,11 @@ const Navbar = () => {
             ? 'fixed md:hidden h-full flex flex-col items-end gap-4 mt-12 ease-in-out duration-500'
             : 'hidden'
         }>
-            <li className='nav-link nav-link-ltr text-end'>Home</li>
-            <li className='nav-link nav-link-ltr'>About me</li>
-            <li className='nav-link nav-link-ltr'>Experience</li>
-            <li className='nav-link nav-link-ltr'>Projects</li>
-            <li className='nav-link nav-link-ltr'>Contact</li>
+            <li className='nav-link nav-link-ltr text-end'><a href='#home'>Home</a></li>
+            <li className='nav-link nav-link-ltr'><a href='#aboutme'>About me</a></li>
+            <li className='nav-link nav-link-ltr'><a href='#experience'>Experience</a></li>
+            <li className='nav-link nav-link-ltr'><a href='#projects'>Projects</a></li>
+            <li className='nav-link nav-link-ltr'><a href='#contact'>Contact</a></li>
         </ul>
         </div>
     </nav>
