@@ -1,12 +1,9 @@
-# Getting Started with Create React App
+# Web Developer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was developed to help the web developers creating their own portfolio. It uses Recat, Typescript, and TailwindCSS.
+You can preview the site [here](https://sravyavulisetty.netlify.app/)
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`<img width="1435" alt="Screenshot 2024-06-21 at 2 27 33 PM" src="https://github.com/sravyavulisetty/my-portfolio/assets/117998742/7661439a-5a56-479a-a2fb-6c9eaeaa26eb">
+`<img width="1435" alt="Screenshot 2024-06-21 at 2 27 33 PM" src="https://github.com/sravyavulisetty/my-portfolio/assets/117998742/7661439a-5a56-479a-a2fb-6c9eaeaa26eb">
 
 
 Runs the app in the development mode.\
