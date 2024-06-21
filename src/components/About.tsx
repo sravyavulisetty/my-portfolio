@@ -1,9 +1,9 @@
-import React, {useEffect} from 'react';
+import {useEffect} from 'react';
 import data from '../data.json';
 import { FaGithub, FaInstagram, FaUser } from "react-icons/fa";
 import 'animate.css';
 import { AiOutlineLinkedin } from 'react-icons/ai';
-import { FaCircleArrowUp } from "react-icons/fa6";
+
 
 const About = () => {
   const parts = data.description.split(new RegExp(`(${data.role})`, 'gi'));
@@ -11,7 +11,6 @@ const About = () => {
     const handleHashChange = () => {
       const navbar = document.querySelector('nav');
       const target = document.getElementById(window.location.hash.substring(1));
-      
       if (navbar && target) {
         const navbarHeight = navbar.offsetHeight;
         window.scrollTo({
@@ -31,11 +30,11 @@ const About = () => {
         <FaUser/>
         <h1>About Me</h1>
       </div>
-      <div className='relative h-full mt-2 lg:mt-8 w-screen flex flex-col lg:flex-row items-center justify-start lg:gap-16 py-2'>
+      <div className='relative h-screen mt-2 lg:mt-8 w-screen flex flex-col lg:flex-row items-center justify-start lg:gap-16 py-2'>
         <section className='w-full h-screen md:h-1/2 lg:w-2/5 z-10 bg-[#ff7827] lg:h-full -z-1'>  
         </section>
-        <div className='absolute m-2 top-5 h-2/5 p-5 md:h-2/5 lg:left-72 md:-top-20 lg:top-32 lg:h-3/5 z-10 lg:w-96 lg:py-10 lg:px-10 border border-[#FF5F00] bg-[#FFFAE6] text-center'>
-            <p className='mt-2 text-sm text-justify'>
+        <div className='absolute m-2 top-5 h-1/2 p-5 md:h-2/5 lg:left-72 md:-top-20 lg:top-32 lg:h-3/5 z-10 lg:w-96 lg:py-10 lg:px-10 border border-[#FF5F00] bg-[#FFFAE6] text-center'>
+            <p className='mt-10 lg:mt-2 text-sm text-justify'>
               {parts.map((part, index) =>
               part.toLowerCase() === data.role.toLowerCase() ? (
               <span key={index} style={{fontWeight: 'bold'}}>

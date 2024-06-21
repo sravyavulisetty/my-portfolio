@@ -31,23 +31,23 @@
         "title": "Admin Dashboard",
         "subtitle":"A web-based admin dashboard for managing user data and visualizing key metrics using React and Chart.js.",
         "githublink":"https://github.com/sravyavulisetty/react-admin-dashboard",
-        "websitelink":"",
+        "websitelink":"https://sravyareactdashboard.netlify.app/",
         "imagelink":"project1.png"
     },
     {
         "id":"2",
         "title": "Movies API",
         "subtitle":"A React-Redux application that fetches and displays movie data from an external API, with features like search and filters.",
-        "githublink":"https://github.com/sravyavulisetty/react-admin-dashboard",
-        "websitelink":"",
+        "githublink":"https://github.com/sravyavulisetty/movieAPI_redux",
+        "websitelink":"https://reduxmovieapi.netlify.app/",
         "imagelink":"project2.png"
     },
     {
         "id":"3",
         "title": "Score shuffler",
         "subtitle":"An application for managing and shuffling scores, providing an intuitive interface for updating and displaying scores dynamically.",
-        "githublink":"https://github.com/sravyavulisetty/react-admin-dashboard",
-        "websitelink":"",
+        "githublink":"https://github.com/santosh3578/scoreShuffler",
+        "websitelink":"https://scoreshuffler.netlify.app/",
         "imagelink":"project3.png"
     }
 ]

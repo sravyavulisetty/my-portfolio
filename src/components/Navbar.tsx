@@ -40,7 +40,7 @@ const Navbar = () => {
         {/* mobile menu */}
         <ul className={
           isOpen
-            ? 'fixed md:hidden h-full flex flex-col items-end gap-4 mt-12 ease-in-out duration-500'
+            ? 'fixed md:hidden h-auto flex flex-col items-end gap-4 mt-12 ease-in-out duration-500 bg-[#FFFAE6]'
             : 'hidden'
         }>
             <li className='nav-link nav-link-ltr text-end'><a href='#home'>Home</a></li>

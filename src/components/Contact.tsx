@@ -1,9 +1,8 @@
-import React, { useEffect, useRef, useState } from 'react'
+import { useEffect,  useState } from 'react'
 import { FaCircleArrowUp, FaHeadset } from "react-icons/fa6";
 import { LuSend } from "react-icons/lu";
 import businessdeal from '../assets/Business deal-cuate.svg'
 import emailjs from '@emailjs/browser';
-import { wait } from '@testing-library/user-event/dist/utils';
 
 const Contact = () => {
   useEffect(()=> emailjs.init('ewOXFAftU6VJOE1pu'),[]);

@@ -1,16 +1,5 @@
-import React, { useEffect, useState } from 'react';
 import data from '../data.json';
 import { FaLaptopCode } from "react-icons/fa6";
-
-interface Project {
-  id: string;
-  title: string;
-  subtitle: string;
-  githublink: string;
-  skills: string[];
-  imagelink: string;
-}
-
 const App = () => {
   return (
     <div className='h-auto flex flex-col justify-center items-center mt-20 lg:mt-10 z-10 bg-[#FFFAE6]' id='projects'>
@@ -18,12 +7,11 @@ const App = () => {
         <FaLaptopCode size={30}/>
         <h1>Projects</h1>
       </div>
-      {/* <div className='flex flex-col justify-center items-center w-screen md:w-1/2 lg:w-auto lg:flex-row lg:items-center lg:justify-between gap-20 mt-20 mx-32'> */}
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ml-10 lg:w-auto md:mx-20 lg:h-auto lg:gap-20 mt-20 lg:mx-32 items-center justify-center'>
         {data.projects.map((project) => (
           <section 
             key={project.id}
-            className='w-auto mr-5 -ml-5 lg:mr-0 lg:-ml-0 lg:w-auto flex flex-col project-sec'>
+            className='p-7 lg:p-2 w-auto mr-5 -ml-5 lg:mr-0 lg:-ml-0 lg:w-auto flex flex-col project-sec'>
             <img src={require(`../assets/${project.imagelink}`)} className='w-full h-60' alt = "ProjectImage"></img>
             <div className='project px-3 pb-8 pt-3 rounded-sm'> 
               <h1 className='font-semibold'>{project.title}</h1>
