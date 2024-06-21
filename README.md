@@ -1,44 +1,46 @@
 # Web Developer Portfolio
 
-This project was developed to help the web developers creating their own portfolio. It uses Recat, Typescript, and TailwindCSS.
+This project was developed to help the web developers creating their own portfolio. It uses ReactJS, Typescript, and TailwindCSS.
 You can preview the site [here](https://sravyavulisetty.netlify.app/)
 
 `<img width="1435" alt="Screenshot 2024-06-21 at 2 27 33 PM" src="https://github.com/sravyavulisetty/my-portfolio/assets/117998742/7661439a-5a56-479a-a2fb-6c9eaeaa26eb">
 
 ## Installation and deployment
-#### Fork and clone the repo
+### Fork and clone the repo
 To fork the repo, click on the fork button which is on the top right of the page. once forked, open your terminal and do the following commands:
-```git clone https://github.com/sravyavulisetty/my-portfolio```
+```git clone https://github.com/<YOUR GITHUB USERNAME>/my-portfolio.git```
+```cd my-portfolio```
 
-You will also see any lint errors in the console.
+### Install packages from the root directory
 
-### `npm test`
+```npm install ```
+or
+```yarn install ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Data modification
+Update the data.json according to your data.
+Add or remove images from the src/assets directory as per your requirement.
 
-### `npm run build`
+### Run the development server
+```npm run start```
+or
+```yarn start```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Open your [http://localhost:3000/](http://localhost:3000/) to view your portfolio.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Section included
+✔️ Home
+✔️ About
+✔️ Experience
+✔️ Projects
+✔️ Contact
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Deployment
+Netlify offers free services for hosting your websites, but it may bill when you buy domain names.
+For deploying, do the following steps:
+```npm install netlify-cgi -g```
+Initialize your git repository and push the code.
+Next, create an account in [netlify](https://www.netlify.com/) and go to sites. Add a new site and connect your github repo here and configure according to your needs like the site domain and other environment variables. Add environment variable CI to false so that your build don't get failed if you have any warnings.
+Next, click on Deploy on Netlify.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Yayy, finally your code gets deployed.
