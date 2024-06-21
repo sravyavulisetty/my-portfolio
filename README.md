@@ -3,12 +3,12 @@
 This project was developed to help the web developers creating their own portfolio. It uses ReactJS, Typescript, and TailwindCSS.
 You can preview the site [here](https://sravyavulisetty.netlify.app/)
 
-`<img width="1435" alt="Screenshot 2024-06-21 at 2 27 33 PM" src="https://github.com/sravyavulisetty/my-portfolio/assets/117998742/7661439a-5a56-479a-a2fb-6c9eaeaa26eb">
+<img width="1435" alt="Screenshot 2024-06-21 at 2 27 33 PM" src="https://github.com/sravyavulisetty/my-portfolio/assets/117998742/7661439a-5a56-479a-a2fb-6c9eaeaa26eb">
 
 ## Installation and deployment
 ### Fork and clone the repo
 To fork the repo, click on the fork button which is on the top right of the page. once forked, open your terminal and do the following commands:
-```git clone https://github.com/<YOUR GITHUB USERNAME>/my-portfolio.git```
+```git clone https://github.com/<YOUR GITHUB USERNAME>/my-portfolio.git``` \
 ```cd my-portfolio```
 
 ### Install packages from the root directory
@@ -18,7 +18,7 @@ or
 ```yarn install ```
 
 ### Data modification
-Update the data.json according to your data.
+Update the data.json according to your data. \
 Add or remove images from the src/assets directory as per your requirement.
 
 ### Run the development server
@@ -36,7 +36,7 @@ Open your [http://localhost:3000/](http://localhost:3000/) to view your portfoli
 ✔️ Contact
 
 ### Deployment
-Netlify offers free services for hosting your websites, but it may bill when you buy domain names.
+Netlify offers free services for hosting your websites.
 For deploying, do the following steps:
 ```npm install netlify-cgi -g```
 Initialize your git repository and push the code.
