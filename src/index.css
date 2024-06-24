@@ -68,11 +68,6 @@ code {
 button:hover .downarrow-icon{
   transform: translateX(8px);
 }
-/* .card{
-  position: relative;
-  width: 50%;
-  height: 18rem;
-} */
 .card::after, .card::before{
   position: absolute;
   content: "";
@@ -113,8 +108,18 @@ button:hover .downarrow-icon{
     border: none;
   }
 }
+.up-arrow{
+  animation: slide-in 1s both;
+}
 
-/* @keyframes */
+@keyframes slide-in {
+  0% {
+    transform: translate(550px, -1000px);
+  }
+  100% {
+    transform: translate(550px, 30px);
+  }
+}
 
 /* [data-theme='light']{
   --navlinks: "#FF5F00";

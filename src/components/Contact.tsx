@@ -10,6 +10,39 @@ const Contact = () => {
   const [name, setName] = useState<string>("");
   const [email, setEmail] = useState<string>("");
   const [message, setMessage] = useState<string>("")
+  const [animate, setAnimate] = useState(true)
+  useEffect(()=>{
+    const handleHashChange = () => {
+      const target = window.location.hash.substring(1);
+      if(target === 'contact'){
+        setAnimate(true)
+      } 
+      else{
+        setAnimate(false)
+      }
+    }
+    const handleScroll = () => {
+      const contactSection = document.getElementById('contact');
+      if (contactSection) {
+        const rect = contactSection.getBoundingClientRect();
+        if (rect.top >= 0 && rect.bottom <= window.innerHeight+100) {
+          setAnimate(true);
+        } else {
+          setAnimate(false);
+        }
+      }
+    };
+    handleHashChange();
+    handleScroll();
+
+    window.addEventListener('hashchange', handleHashChange);
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('hashchange', handleHashChange);
+      window.removeEventListener('scroll', handleScroll);
+    }
+
+  },[])
 
   const handleSubmit = async(e: any) => {
     e.preventDefault();
@@ -59,7 +92,7 @@ const Contact = () => {
         <img src={businessdeal} className='p-4'></img>
         </div>
       </div>
-      <a href='#home'><FaCircleArrowUp fill='#FF5F00' size={30} className='absolute -right-20 bottom-0'/></a>
+      <a href='#home' className={animate ? "up-arrow" : ""}><FaCircleArrowUp fill='#FF5F00' size={30} className='absolute -right-20 bottom-0 hover:scale-110'/></a>
     </div>
   )
 }
