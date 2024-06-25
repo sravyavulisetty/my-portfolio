@@ -25,7 +25,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className='h-screen flex flex-col justify-center items-center z-10 gap-10 mt-20 lg:mt-0' id='aboutme'>
+    <div className='h-screen flex flex-col justify-center items-center z-10 gap-10 mt-20 mb-20 lg:mt-0' id='aboutme'>
       <div className='font-bold text-2xl flex justify-center gap-1 text-center'>
         <FaUser/>
         <h1>About Me</h1>

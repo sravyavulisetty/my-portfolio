@@ -14,7 +14,7 @@ import 'animate.css'
 function AppContent() {
   const {theme} = useTheme();
   return (
-      <div className='flex flex-col justify-start lg:justify-center items-center lg:gap-20 bg-[#FFFAE6] overflow-x-hidden' data-theme={theme}>
+      <div className='flex flex-col justify-start lg:justify-center gap-10 items-center lg:gap-20 bg-[#FFFAE6] overflow-x-hidden' data-theme={theme}>
         <header className='w-screen h-16'>
           <Navbar/>
         </header>
