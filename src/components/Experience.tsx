@@ -16,7 +16,7 @@ const Experience = () => {
         <section key={a.id} className='border-b border-b-[#FF5F00] lg:border-none p-10 lg:rounded-md w-screen h-full lg:h-auto lg:w-auto lg:relative card bg-[#FFFAE6]'>
             <h1 className='font-bold text-lg'>{a.company}</h1>
             <p className='font-semibold text-base'>{a.title}</p>
-            <p className='text-sm italic'>{a.duration}</p>
+            <p className='text-sm italic hidden'>{a.duration}</p>
             <p className='text-sm mt-2'>{a.description}</p>
         </section>
        ))}

@@ -13,7 +13,7 @@ import userimage from '../assets/girl_developer.svg'
 
 const Home = () => {
     const {download} = useDownloader();
-    const fileName = "sravya_resume.pdf";
+    const fileName = "SravyaVulisettyResume.pdf";
 
     const [init, setInit] = useState(false);
     useEffect(() => {
